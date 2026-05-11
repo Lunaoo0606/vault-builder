@@ -146,6 +146,7 @@ app_secret = "..."
 thinking_messages = false   # 不推送思考过程
 tool_messages = false       # 不推送工具调用步骤
 progress_style = "compact"  # 只用一条消息持续更新，不是每步发新消息
+reply_footer = false        # 不在回复末尾显示工作目录路径
 ```
 
 不加这三行，Claude 每跑一个工具都会往飞书发一条消息，非常嘈杂。

@@ -77,6 +77,7 @@ app_secret = "..."
 thinking_messages = false
 tool_messages = false
 progress_style = "compact"
+reply_footer = false        # 不显示底部路径
 ```
 
 ## 注意事项
