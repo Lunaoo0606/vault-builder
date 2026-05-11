@@ -54,8 +54,8 @@ vault-builder/
     ├── Knowledge.md                # 概念（少量用）
     ├── Iteration.md                # 项目迭代
     ├── Roadmap.md                  # 产品规划
-    ├── Job.md                      # 求职岗位追踪
-    ├── Interview-Project.md        # 面试项目卡片
+    ├── Opportunity.md               # 外部机会追踪
+    ├── Project-Showcase.md           # 项目展示卡片
     └── Monthly-Review.md           # 月度复盘
 ```
 
@@ -83,4 +83,4 @@ progress_style = "compact"
 
 - 这套工作流只支持 **Claude Code**（不支持 Cursor / Codex）
 - vault 建议放在本地，不要放 iCloud Drive 内层（git 和 iCloud 同时同步会冲突）
-- Job / Interview-Project 模板是可选的，不做求职用不上
+- Opportunity / Project-Showcase 模板是可选的，不需要可以不装
